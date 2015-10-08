@@ -14,5 +14,15 @@ public class MainTest {
     public void testIfHelloWorldExists(){
         Assert.assertNotNull(program.Main.HelloWorld());
     }
+    @Test
+    public void GetLocationsTest(){
+        Assert.assertNotNull(program.Main.GetLocations());
+    }
+    @Test
+    public void GetURLTest(){
+        Assert.assertNotNull(program.Main.GetURL());
+    }
+
+
 
 }

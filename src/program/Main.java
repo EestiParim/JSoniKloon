@@ -9,5 +9,14 @@ public class Main {
         return 1;
 
     }
+
+    public static Object GetLocations() {
+        return true;
+    }
+
+    public static Object GetURL() {
+        return false;
+    }
+
     //lammas
 }
